@@ -20,7 +20,7 @@ Welcome to my GitHub profile! I am a passionate developer who loves building coo
 
 ## 📈 Recent Activity
 <!-- START_SECTION:activity -->
-<!-- The Python script will inject your recent commit activity here! -->
+- No recent activity found or token missing.
 <!-- END_SECTION:activity -->
 
 ---
