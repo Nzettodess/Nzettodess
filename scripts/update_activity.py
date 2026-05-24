@@ -43,13 +43,23 @@ def generate_stats_and_languages(repos):
                 for lang, bytes_count in langs.items():
                     language_bytes[lang] += bytes_count
 
+    # Fetch Total Commits using Search API
+    total_commits = 0
+    search_headers = headers.copy()
+    search_headers["Accept"] = "application/vnd.github.cloak-preview" # Needed for commit search API
+    commit_url = f"https://api.github.com/search/commits?q=author:{USERNAME}"
+    commit_resp = requests.get(commit_url, headers=search_headers)
+    if commit_resp.status_code == 200:
+        total_commits = commit_resp.json().get('total_count', 0)
+
     # Generate Stats Table
     stats_content = (
         f"| 📊 Metric | Count |\n"
         f"|---|---|\n"
         f"| 📦 Total Repositories | {total_repos} |\n"
         f"| ⭐ Total Stars | {total_stars} |\n"
-        f"| 🍴 Total Forks | {total_forks} |"
+        f"| 🍴 Total Forks | {total_forks} |\n"
+        f"| 💻 Total Commits | {total_commits} |"
     )
     
     # Generate Mermaid Pie Chart
