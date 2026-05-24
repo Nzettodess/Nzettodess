@@ -1,7 +1,7 @@
 import os
 import requests
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from collections import defaultdict
 
 # GitHub credentials and settings
@@ -30,61 +30,69 @@ def generate_stats_and_languages(repos):
     total_repos = len(repos)
     language_bytes = defaultdict(int)
     
+    one_year_ago = datetime.now() - timedelta(days=365)
+    
     for repo in repos:
         total_stars += repo.get('stargazers_count', 0)
         total_forks += repo.get('forks_count', 0)
         
-        # Fetch languages for this repo
-        lang_url = repo.get('languages_url')
-        if lang_url:
-            lang_resp = requests.get(lang_url, headers=headers)
-            if lang_resp.status_code == 200:
-                langs = lang_resp.json()
-                for lang, bytes_count in langs.items():
-                    language_bytes[lang] += bytes_count
+        # Filter languages by repositories updated in the last 365 days
+        updated_at_str = repo.get('updated_at')
+        if updated_at_str:
+            updated_at = datetime.strptime(updated_at_str, "%Y-%m-%dT%H:%M:%SZ")
+            if updated_at > one_year_ago:
+                lang_url = repo.get('languages_url')
+                if lang_url:
+                    lang_resp = requests.get(lang_url, headers=headers)
+                    if lang_resp.status_code == 200:
+                        langs = lang_resp.json()
+                        for lang, bytes_count in langs.items():
+                            language_bytes[lang] += bytes_count
 
-    # Fetch Total Commits and Average per month
+    # Fetch Total Commits and Average per month (Last Year constraint)
     total_commits = 0
-    average_commits = 0
     search_headers = headers.copy()
     search_headers["Accept"] = "application/vnd.github.cloak-preview"
-    commit_url = f"https://api.github.com/search/commits?q=author:{USERNAME}"
+    
+    # Calculate date for last year query
+    last_year_date = one_year_ago.strftime("%Y-%m-%d")
+    commit_url = f"https://api.github.com/search/commits?q=author:{USERNAME} committer-date:>{last_year_date}"
     commit_resp = requests.get(commit_url, headers=search_headers)
     if commit_resp.status_code == 200:
         total_commits = commit_resp.json().get('total_count', 0)
         
-    # Get user creation date for average calculations
+    # Get user creation date for Account Age
+    account_age_str = "Unknown"
     user_url = f"https://api.github.com/users/{USERNAME}"
     user_resp = requests.get(user_url, headers=headers)
     if user_resp.status_code == 200:
         created_at_str = user_resp.json().get('created_at')
         if created_at_str:
             created_at = datetime.strptime(created_at_str, "%Y-%m-%dT%H:%M:%SZ")
-            months_active = (datetime.now().year - created_at.year) * 12 + (datetime.now().month - created_at.month)
-            months_active = max(1, months_active) # Prevent division by zero
-            average_commits = round(total_commits / months_active)
+            days_active = (datetime.now() - created_at).days
+            years = days_active // 365
+            months = (days_active % 365) // 30
+            account_age_str = f"{years} yrs, {months} mos"
 
     # Generate Stats Table
     stats_content = (
         f"| 📊 Metric | Count |\n"
         f"|---|---|\n"
         f"| 📦 Total Repositories | {total_repos} |\n"
-        f"| ⭐ Total Stars | {total_stars} |\n"
-        f"| 🍴 Total Forks | {total_forks} |\n"
-        f"| 💻 Total Commits | {total_commits} |\n"
-        f"| 📅 Avg. Commits/Month | {average_commits} |"
+        f"| ⭐ Total Stars Earned | {total_stars} |\n"
+        f"| 💻 Commits (Last Year)| {total_commits} |\n"
+        f"| ⏳ Account Age | {account_age_str} |"
     )
     
     # Generate Mermaid Pie Chart
-    mermaid_lines = ["```mermaid", "pie title Top Languages"]
+    mermaid_lines = ["```mermaid", "pie title Top Languages (Active Repos)"]
     
     if language_bytes:
         total_bytes = sum(language_bytes.values())
-        # Sort by usage and take top 8
         sorted_langs = sorted(language_bytes.items(), key=lambda x: x[1], reverse=True)[:8]
         for lang, count in sorted_langs:
             percent = (count / total_bytes) * 100
-            if percent > 0.5: # Only show languages > 0.5%
+            if percent > 0.5:
                 mermaid_lines.append(f'    "{lang}" : {percent:.2f}')
     else:
         mermaid_lines.append('    "No Data" : 100')
@@ -103,31 +111,18 @@ def get_recent_activity():
         
     events = response.json()
     activity_lines = []
-    push_events = [e for e in events if e['type'] == 'PushEvent']
     
-    for event in push_events[:5]:
+    # Track recent stars instead of pushes!
+    watch_events = [e for e in events if e['type'] == 'WatchEvent']
+    
+    for event in watch_events[:5]:
         repo_name = event['repo']['name']
-        
-        repo_url = f"https://api.github.com/repos/{repo_name}"
-        repo_resp = requests.get(repo_url, headers=headers).json()
-        
-        if repo_resp.get('private', False):
-            display_repo = "🔒 private repo"
-        else:
-            display_repo = f"[{repo_name}](https://github.com/{repo_name})"
-            
-        commits = event['payload'].get('commits', [])
-        commit_count = len(commits)
-        
-        if commit_count > 0:
-            date_str = datetime.strptime(event['created_at'], "%Y-%m-%dT%H:%M:%SZ").strftime("%Y-%m-%d")
-            commit_msg = commits[0]['message'].split('\n')[0]
-            if len(commit_msg) > 50:
-                commit_msg = commit_msg[:47] + "..."
-            activity_lines.append(f"- 📅 {date_str} - Pushed {commit_count} commit(s) to {display_repo}: `{commit_msg}`")
+        date_str = datetime.strptime(event['created_at'], "%Y-%m-%dT%H:%M:%SZ").strftime("%Y-%m-%d")
+        display_repo = f"[{repo_name}](https://github.com/{repo_name})"
+        activity_lines.append(f"- ⭐ Starred {display_repo} on {date_str}")
             
     if not activity_lines:
-        return ["- No recent push activity found."]
+        return ["- No recent starred repositories found."]
     return activity_lines
 
 def update_readme(stats_content, languages_content, activity_lines):
