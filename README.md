@@ -10,17 +10,30 @@ Welcome to my GitHub profile! I am a passionate developer who loves building coo
 
 ## 📊 My GitHub Stats
 <!-- START_SECTION:stats -->
-<!-- The Python script will inject your overall stats here! -->
+| 📊 Metric | Count |
+|---|---|
+| 📦 Total Repositories | 33 |
+| ⭐ Total Stars | 1 |
+| 🍴 Total Forks | 4 |
 <!-- END_SECTION:stats -->
 
 ## 🏆 Top Languages
 <!-- START_SECTION:languages -->
-<!-- The Python script will inject your top languages pie chart here! -->
+```mermaid
+pie title Top Languages
+    "C" : 51.25
+    "C++" : 24.34
+    "Python" : 8.49
+    "Vim Script" : 8.34
+    "HTML" : 3.68
+    "TypeScript" : 0.84
+    "Dart" : 0.65
+```
 <!-- END_SECTION:languages -->
 
 ## 📈 Recent Activity
 <!-- START_SECTION:activity -->
-- No recent activity found or token missing.
+- No recent push activity found.
 <!-- END_SECTION:activity -->
 
 ---
