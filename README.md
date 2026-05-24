@@ -17,7 +17,12 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 
 ## 📊 Developer Insights
 <!-- START_SECTION:stats -->
-<!-- The Python script will inject your advanced stats here! -->
+| 📊 Metric | Count |
+|---|---|
+| 📦 Total Repositories | 33 |
+| ⭐ Total Stars Earned | 1 |
+| 💻 Commits (Last Year)| 1256 |
+| ⏳ Account Age | 6 yrs, 11 mos |
 <!-- END_SECTION:stats -->
 
 </td>
@@ -25,7 +30,18 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 
 ## 🏆 Current Focus (Last 365 Days)
 <!-- START_SECTION:languages -->
-<!-- The Python script will inject your top languages pie chart here! -->
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'pie1': '#e74c3c', 'pie2': '#3498db', 'pie3': '#f1c40f', 'pie4': '#2ecc71', 'pie5': '#9b59b6', 'pie6': '#e67e22', 'pie7': '#1abc9c', 'pie8': '#34495e' }}}%%
+pie title Top Languages (Active Repos)
+    "Python" : 55.49
+    "HTML" : 23.93
+    "TypeScript" : 5.47
+    "Dart" : 4.25
+    "JavaScript" : 2.56
+    "TeX" : 2.22
+    "C" : 1.10
+    "CSS" : 0.90
+```
 <!-- END_SECTION:languages -->
 
 </td>
@@ -66,7 +82,10 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
-<!-- The Python script will inject your starred repos here! -->
+- ⭐ Starred [google/langextract](https://github.com/google/langextract) on 2026-05-23
+- ⭐ Starred [mattpocock/skills](https://github.com/mattpocock/skills) on 2026-05-22
+- ⭐ Starred [brendangooden/ms-teams-sharepoint-downloader](https://github.com/brendangooden/ms-teams-sharepoint-downloader) on 2026-05-15
+- ⭐ Starred [microsoft/powerbi-modeling-mcp](https://github.com/microsoft/powerbi-modeling-mcp) on 2026-05-14
 <!-- END_SECTION:activity -->
 
 </details>
