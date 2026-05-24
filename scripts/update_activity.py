@@ -43,14 +43,26 @@ def generate_stats_and_languages(repos):
                 for lang, bytes_count in langs.items():
                     language_bytes[lang] += bytes_count
 
-    # Fetch Total Commits using Search API
+    # Fetch Total Commits and Average per month
     total_commits = 0
+    average_commits = 0
     search_headers = headers.copy()
-    search_headers["Accept"] = "application/vnd.github.cloak-preview" # Needed for commit search API
+    search_headers["Accept"] = "application/vnd.github.cloak-preview"
     commit_url = f"https://api.github.com/search/commits?q=author:{USERNAME}"
     commit_resp = requests.get(commit_url, headers=search_headers)
     if commit_resp.status_code == 200:
         total_commits = commit_resp.json().get('total_count', 0)
+        
+    # Get user creation date for average calculations
+    user_url = f"https://api.github.com/users/{USERNAME}"
+    user_resp = requests.get(user_url, headers=headers)
+    if user_resp.status_code == 200:
+        created_at_str = user_resp.json().get('created_at')
+        if created_at_str:
+            created_at = datetime.strptime(created_at_str, "%Y-%m-%dT%H:%M:%SZ")
+            months_active = (datetime.now().year - created_at.year) * 12 + (datetime.now().month - created_at.month)
+            months_active = max(1, months_active) # Prevent division by zero
+            average_commits = round(total_commits / months_active)
 
     # Generate Stats Table
     stats_content = (
@@ -59,7 +71,8 @@ def generate_stats_and_languages(repos):
         f"| 📦 Total Repositories | {total_repos} |\n"
         f"| ⭐ Total Stars | {total_stars} |\n"
         f"| 🍴 Total Forks | {total_forks} |\n"
-        f"| 💻 Total Commits | {total_commits} |"
+        f"| 💻 Total Commits | {total_commits} |\n"
+        f"| 📅 Avg. Commits/Month | {average_commits} |"
     )
     
     # Generate Mermaid Pie Chart
