@@ -34,6 +34,33 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 
 ---
 
+## 🚀 Featured University Projects
+
+### ⚖️ [AI Act Compliance Suite (Governance)](https://github.com/Nzettodess/Gemini-Hackathon/tree/main)
+*Python, Gemini API, SQLite*
+- **Agentic Automation:** Designed 5 modular Agent Plugins to decouple specialized AI Agents, enabling autonomous, zero-touch compliance verification for EU legislative articles.
+- **Auto-Documentation:** Engineered an engine parsing 20+ file types within 500k-character contexts, automating the generation of complex visual architectures via Mermaid.js.
+- **Resilience:** Standardized system integration across teams by deploying a High Availability fallback framework, guaranteeing 99.9% system uptime.
+
+### 🪐 [Orbit: Cross-Platform Event Sync](https://github.com/Nzettodess/Orbit)
+*Flutter, Firebase, Vercel*
+- **Scalable Architecture:** Spearheaded the deployment of a scalable backend architecture to manage secure authentication, guaranteeing real-time data synchronization across Web, iOS, and Android platforms.
+- **Automated Pipelines:** Automated cross-platform communication pipelines using OneSignal, achieving a 100% successful push-notification delivery rate.
+
+### ⚔️ [Astraeus Protocol (Multiplayer P2P Roguelite)](https://www.youtube.com/watch?v=yhu8UNkjQRc)
+*C++, Unreal Engine 5, EOS*
+- **Network Optimization:** Optimized a P2P synchronization layer (Blueprints/EOS) with RPCs to manage state replication for 30+ network actors at a 60Hz tick rate.
+- **Procedural Generation:** Developed a deterministic procedural generation engine using seed-based logic to guarantee 100% valid navigational pathing with zero runtime errors.
+- **Performance:** Accelerated replication performance by implementing relevance-based culling, minimizing bandwidth overhead for synchronous multiplayer states.
+
+### 🧟 [Moral Nexus (AI-Driven Survival Game)](https://youtu.be/jfWJqOpxPrM?si=391F8AwrKuUPRPo)
+*Unreal Engine 5, Blueprints*
+- **Engineering Leadership:** Collaborated with a 4-person engineering team using Agile, managing version control and merge conflicts for a 4-month cycle.
+- **Stealth AI Systems:** Developed sight-based AI perception logic and time-synchronized Day/Night cycles to dynamically alter NPC patrolling behaviors.
+- **Systems Integration:** Coordinated environmental states across 3 game zones by implementing a global event-driven architecture.
+
+---
+
 ## 🌟 Recent Community Engagement
 <details>
 <summary>Click to view my recently starred repositories</summary>
