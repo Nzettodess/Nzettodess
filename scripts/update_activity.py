@@ -2,40 +2,89 @@ import os
 import requests
 import re
 from datetime import datetime
+from collections import defaultdict
 
 # GitHub credentials and settings
 GITHUB_TOKEN = os.getenv("GH_TOKEN")
 USERNAME = os.getenv("GH_USERNAME", "Nzettodess")
 
 headers = {
-    "Authorization": f"token {GITHUB_TOKEN}",
+    "Authorization": f"token {GITHUB_TOKEN}" if GITHUB_TOKEN else "",
     "Accept": "application/vnd.github.v3+json",
 }
 
-def get_recent_activity():
+def get_repos():
     if not GITHUB_TOKEN:
-        print("GH_TOKEN is not set. Exiting.")
-        return []
+        print("GH_TOKEN is not set. Fetching public repos only (rate limited).")
         
+    url = f"https://api.github.com/user/repos?per_page=100&affiliation=owner"
+    response = requests.get(url, headers=headers)
+    if response.status_code != 200:
+        print(f"Failed to fetch repos: {response.status_code}")
+        return []
+    return response.json()
+
+def generate_stats_and_languages(repos):
+    total_stars = 0
+    total_forks = 0
+    total_repos = len(repos)
+    language_bytes = defaultdict(int)
+    
+    for repo in repos:
+        total_stars += repo.get('stargazers_count', 0)
+        total_forks += repo.get('forks_count', 0)
+        
+        # Fetch languages for this repo
+        lang_url = repo.get('languages_url')
+        if lang_url:
+            lang_resp = requests.get(lang_url, headers=headers)
+            if lang_resp.status_code == 200:
+                langs = lang_resp.json()
+                for lang, bytes_count in langs.items():
+                    language_bytes[lang] += bytes_count
+
+    # Generate Stats Table
+    stats_content = (
+        f"| 📊 Metric | Count |\n"
+        f"|---|---|\n"
+        f"| 📦 Total Repositories | {total_repos} |\n"
+        f"| ⭐ Total Stars | {total_stars} |\n"
+        f"| 🍴 Total Forks | {total_forks} |"
+    )
+    
+    # Generate Mermaid Pie Chart
+    mermaid_lines = ["```mermaid", "pie title Top Languages"]
+    
+    if language_bytes:
+        total_bytes = sum(language_bytes.values())
+        # Sort by usage and take top 8
+        sorted_langs = sorted(language_bytes.items(), key=lambda x: x[1], reverse=True)[:8]
+        for lang, count in sorted_langs:
+            percent = (count / total_bytes) * 100
+            if percent > 0.5: # Only show languages > 0.5%
+                mermaid_lines.append(f'    "{lang}" : {percent:.2f}')
+    else:
+        mermaid_lines.append('    "No Data" : 100')
+        
+    mermaid_lines.append("```")
+    mermaid_content = "\n".join(mermaid_lines)
+    
+    return stats_content, mermaid_content
+
+def get_recent_activity():
     url = f"https://api.github.com/users/{USERNAME}/events"
     response = requests.get(url, headers=headers)
     
     if response.status_code != 200:
-        print(f"Failed to fetch activity: {response.status_code}")
-        return []
+        return ["- Failed to fetch recent activity."]
         
     events = response.json()
     activity_lines = []
-    
-    # Process the most recent push events
     push_events = [e for e in events if e['type'] == 'PushEvent']
     
-    for event in push_events[:5]: # Get top 5 recent pushes
+    for event in push_events[:5]:
         repo_name = event['repo']['name']
-        is_public = event.get('public', True)
         
-        # Check if repo is actually private (sometimes events API doesn't fully clarify without checking repo details)
-        # We can do a quick check on the repo API, or just use the event's public flag.
         repo_url = f"https://api.github.com/repos/{repo_name}"
         repo_resp = requests.get(repo_url, headers=headers).json()
         
@@ -49,31 +98,41 @@ def get_recent_activity():
         
         if commit_count > 0:
             date_str = datetime.strptime(event['created_at'], "%Y-%m-%dT%H:%M:%SZ").strftime("%Y-%m-%d")
-            commit_msg = commits[0]['message'].split('\n')[0] # Get first line of latest commit
+            commit_msg = commits[0]['message'].split('\n')[0]
             if len(commit_msg) > 50:
                 commit_msg = commit_msg[:47] + "..."
-                
             activity_lines.append(f"- 📅 {date_str} - Pushed {commit_count} commit(s) to {display_repo}: `{commit_msg}`")
             
+    if not activity_lines:
+        return ["- No recent push activity found."]
     return activity_lines
 
-def update_readme(activity_lines):
-    if not activity_lines:
-        activity_lines = ["- No recent activity found or token missing."]
-        
+def update_readme(stats_content, languages_content, activity_lines):
     activity_content = "\n".join(activity_lines)
     
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
         
-    # Replace content between tags
-    pattern = re.compile(r"(<!-- START_SECTION:activity -->\n).*?(\n<!-- END_SECTION:activity -->)", re.DOTALL)
-    new_readme = pattern.sub(rf"\g<1>{activity_content}\g<2>", readme)
+    # Replace contents between tags
+    def replace_section(name, new_content, text):
+        pattern = re.compile(rf"(<!-- START_SECTION:{name} -->\n).*?(\n<!-- END_SECTION:{name} -->)", re.DOTALL)
+        return pattern.sub(rf"\g<1>{new_content}\g<2>", text)
+
+    readme = replace_section("stats", stats_content, readme)
+    readme = replace_section("languages", languages_content, readme)
+    readme = replace_section("activity", activity_content, readme)
     
     with open("README.md", "w", encoding="utf-8") as f:
-        f.write(new_readme)
+        f.write(readme)
 
 if __name__ == "__main__":
-    lines = get_recent_activity()
-    update_readme(lines)
-    print("README updated successfully.")
+    print("Fetching repos for stats and languages...")
+    repos = get_repos()
+    stats, langs = generate_stats_and_languages(repos)
+    
+    print("Fetching recent activity...")
+    activity = get_recent_activity()
+    
+    print("Updating README.md...")
+    update_readme(stats, langs, activity)
+    print("Done!")

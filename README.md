@@ -9,12 +9,14 @@ Welcome to my GitHub profile! I am a passionate developer who loves building coo
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ## 📊 My GitHub Stats
+<!-- START_SECTION:stats -->
+<!-- The Python script will inject your overall stats here! -->
+<!-- END_SECTION:stats -->
 
-<!-- GitHub Readme Stats -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nzettodess&show_icons=true&theme=radical&count_private=true" alt="Nzettodess's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nzettodess&layout=compact&theme=radical" alt="Nzettodess's Top Languages" />
-</p>
+## 🏆 Top Languages
+<!-- START_SECTION:languages -->
+<!-- The Python script will inject your top languages pie chart here! -->
+<!-- END_SECTION:languages -->
 
 ## 📈 Recent Activity
 <!-- START_SECTION:activity -->
