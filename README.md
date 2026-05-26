@@ -35,12 +35,10 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 pie title Top Languages (Active Repos)
     "Python" : 55.48
     "HTML" : 23.93
-    "TypeScript" : 5.47
     "Dart" : 4.25
     "JavaScript" : 2.56
-    "TeX" : 2.22
-    "C" : 1.10
-    "CSS" : 0.90
+    "C++" : 1.10
+    
 ```
 <!-- END_SECTION:languages -->
 
@@ -50,7 +48,7 @@ pie title Top Languages (Active Repos)
 
 ---
 
-## 🚀 Featured University Projects
+## 🚀 Featured Projects
 
 ### ⚖️ [AI Act Compliance Suite (Governance)](https://github.com/Nzettodess/Gemini-Hackathon/tree/main)
 *Python, Gemini API, SQLite*
