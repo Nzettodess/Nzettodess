@@ -2,10 +2,10 @@
 
 Welcome to my GitHub profile! I'm a passionate developer focusing on building performant and insightful tools.
 
-## 🛠️ Tech Stack & Arsenal
+## 🛠️ Tech Stack
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=c,cpp,python,git,ts,dart,flutter,vercel,firebase,unreal,html,js&perline=6" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,python,git,dart,flutter,vercel,firebase,unreal,html,js&perline=6" />
   </a>
 </p>
 
