@@ -1,0 +1,3 @@
+C:\Users\Nzettodess\Downloads\CV\rendercv-windows-x86_64.exe render C:\Users\Nzettodess\Downloads\CV\CV1.yaml
+
+C:\Users\Nzettodess\Downloads\Nzettodess\rendercv-windows-x86_64.exe render C:\Users\Nzettodess\Downloads\Nzettodess\CV_Latest.yaml

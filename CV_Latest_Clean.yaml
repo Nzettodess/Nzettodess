@@ -1,0 +1,120 @@
+cv:
+  name: Ang Kang Heng
+  email: angkangheng@hotmail.com
+  social_networks:
+    - network: LinkedIn
+      username: angkangheng
+    - network: GitHub
+      username: Nzettodess
+    - network: WhatsApp
+      username: "+60194693448"
+  website: https://angkangheng.wixsite.com/nzettodess
+
+  sections:
+    summary:
+      - >
+        **Strategic AI & Data Engineer** with hands-on enterprise expertise in predictive analytics, multi-agent LLM orchestration, and high-speed data engineering. Proven ability to architect cost-optimized machine learning models (CatBoost, XGBoost) and multimodal extraction pipelines (VLMs, RAG) that successfully bypass hardware limits and commercial API constraints. Adept at transforming raw operational data into Explainable AI (SHAP) and automated dashboards, driving measurable efficiencies and equipping leadership with transparent, Day-1 preventative insights.
+    experience:
+      - company: Zebra Technologies
+        position: CSI Specialist (Data, AI & Automation)
+        location: Penang, Malaysia
+        start_date: 2026-04
+        end_date: 
+        highlights:
+          - >
+            **Engineered a scalable Python Web API** to natively interface with enterprise web chatbots, overcoming standard API provisioning constraints to unlock continuous, end-to-end agentic AI workflows. Accelerated data classification from 2 minutes to 8 seconds per task (**a 15x speedup**), eliminating **~300+ cumulative human-hours weekly** based on a 10,000-request benchmark.
+          - >
+            **Developed a Day-1 escalation predictive model** (POC) to forecast Level 2 support escalations, achieving **>80% AUC and F1 scores** by benchmarking Random Forest, LightGBM, and CatBoost across **rolling time windows**, ensuring zero data-leakage, deployed **automated drift detection**, and leveraged **SHAP values with Surrogate Trees** to extract cyclical trends, equipping leadership with transparent, preventative insights.
+          - >
+            **Eliminated third-party API costs and bypassed hardware bottlenecks** (4GB VRAM) by utilizing LLMs to generate a "golden dataset," training a lightweight **XGBoost classifier** for zero-cost, high-speed text categorization.
+          - >
+            **Architected a multimodal data extraction pipeline** to recover image-based data omitted by standard RAG parsers, utilizing OCR, **Vision-Language Models (VLMs)**, and LLMs to synthesize complex UI screenshots into structured text.
+
+      - company: Zebra Technologies
+        position: IT Intern (AI & Automation)
+        location: Penang, Malaysia
+        start_date: 2025-10
+        end_date: 2026-04
+        highlights:
+          - >
+            **Engineered an 8-agent hierarchical AI prototype** (**LangGraph**, **ReAct**) to automate enterprise data synthesis; integrated **Reflective Memory (ReMe)** and an **LLM-as-Judge** validation layer to enforce self-correction and rigorously verify AI reasoning.
+          - >
+            Reduced global web testing cycles from several days to **90 minutes** by deploying a modular Web Assurance Suite (**Python**, **Playwright**) during a hybrid site migration, automating the validation of 2.9M+ legacy HTML links and ensuring 100% routing coverage for 114 modern **SPA** endpoints.
+          - >
+            **Engineered a Human-in-the-Loop (HITL) ETL pipeline** (**Python**, **Pandas**) to bypass API constraints; utilized **LanceDB** for semantic embeddings and **JSON prompt injection** to automate data sanitization and dynamic charting.
+          - >
+            Increased CES categorization accuracy to **98.25%** and eliminated manual data entry by deploying **Chain-of-Thought (CoT)** prompt engineering within **Power Automate**, optimizing multilingual feedback triage.
+
+
+    education:
+      - institution: Universiti Teknikal Malaysia Melaka (UTeM)
+        area: "Bachelor of Information Technology (Games Technology) with Honours"
+        degree: B.IT
+        summary: "CGPA: 3.93/4"
+        start_date: 2022-10
+        end_date: 2026-04
+   
+    achievements:
+      - bullet: "**Dean’s List Award (UTeM)**: Maintained a 3.93/4.00 CGPA by achieving a GPA above 3.50 for **all** semesters."
+      - bullet: "**Gold Award & Industry Award (GDIID 2025)**: Swept three major categories for the architectural design of Astraeus Protocol, recognized by industry judges for technical excellence, algorithmic innovation, and commercial viability."
+      - bullet: "**1st Place (Best Game)** & **3rd Place (Best Poster)**, Workshop II Final Showcase: Outperformed 10+ teams in technical execution, innovation, and project communication for the development of ‘Moral Nexus’."
+      
+    projects:
+      - name: '[AI Act Compliance Suite (Governance) | Python, Gemini API, SQLite](https://github.com/Nzettodess/Gemini-Hackathon/tree/main)'
+        start_date: 2026-01
+        end_date: 2026-02
+        highlights:
+          - >
+            **Designed** 5 modular Agent Plugins to decouple specialized AI Agents, **enabling autonomous, zero-touch compliance verification** for 3 EU legislative articles.
+          - >
+            **Engineered** a documentation engine parsing 20+ file types within 500k-character contexts, **automating the generation of complex visual architectures (Mermaid.js)**.
+          - >
+            **Standardized** system integration across frontend and backend teams by deploying a High Availability fallback framework, **guaranteeing 99.9% system uptime** and operational resilience.
+
+    skills:
+      - label: Agentic AI
+        details: "LangGraph, Multi-Agent Systems, LLMs & VLMs (Qwen, Phi-4), ReAct/CoT Logic, Prompt/Context Engineering, RAG, OCR, Vector Embeddings (LanceDB)"
+      - label: Machine Learning & Predictive Analytics
+        details: "Ensemble Models (CatBoost, XGBoost, LightGBM, Random Forest), Explainable AI / XAI (SHAP, Surrogate Trees), NLP (TF-IDF, Topic Modeling)"
+      - label: Data Engineering & Architecture
+        details: "Python (Polars, Pandas), Rust-based Parsers (Calamine), Power BI (DAX, Semantic Modeling), ETL Pipelines, Parquet, Data Sanitization"  
+      - label: Process & Web Automation
+        details: "Power Automate, Playwright (Shadow DOM, Context Pooling), Selenium, Async Python, CI/CD (GitHub Actions)"
+      - label: Programming Languages
+        details: "Python, JavaScript, SQL, HTML/CSS" 
+      - label: Game Engineering, 3D pipelines & Tools 
+        details: "Unreal Engine 5 (Blueprints, Network Replication), Blender, Git/GitHub, Firebase, Vercel, SQLite"
+      - label: Languages
+        details: "Mandarin, English, Malay, Hokkien"
+
+design:
+  theme: classic
+  entries:
+    # Increased width to prevent date/location wrapping
+    date_and_location_width: 4.5cm
+
+  typography:
+    line_spacing: 0.7em
+    alignment: justified-with-no-hyphenation
+
+locale:
+  language: english
+  last_updated: Last updated in
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  month_abbreviations:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
