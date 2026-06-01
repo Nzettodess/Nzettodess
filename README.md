@@ -19,10 +19,10 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 <!-- START_SECTION:stats -->
 | 📊 Metric | Count |
 |---|---|
-| 📦 Total Repositories | 33 |
-| ⭐ Total Stars Earned | 2 |
-| 💻 Commits (Last Year)| 1301 |
-| ⏳ Account Age | 6 yrs, 11 mos |
+| 📦 Total Repositories | 0 |
+| ⭐ Total Stars Earned | 0 |
+| 💻 Commits (Last Year)| 0 |
+| ⏳ Account Age | Unknown |
 <!-- END_SECTION:stats -->
 
 </td>
@@ -33,14 +33,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'pie1': '#e74c3c', 'pie2': '#3498db', 'pie3': '#f1c40f', 'pie4': '#2ecc71', 'pie5': '#9b59b6', 'pie6': '#e67e22', 'pie7': '#1abc9c', 'pie8': '#34495e' }}}%%
 pie title Top Languages (Active Repos)
-    "Python" : 55.37
-    "HTML" : 23.85
-    "TypeScript" : 5.45
-    "Dart" : 4.23
-    "JavaScript" : 2.81
-    "TeX" : 2.21
-    "C" : 1.10
-    "CSS" : 0.90
+    "No Data" : 100
 ```
 <!-- END_SECTION:languages -->
 
@@ -82,11 +75,7 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
-- ⭐ Starred [FlashML-org/flashlib](https://github.com/FlashML-org/flashlib) on 2026-05-28
-- ⭐ Starred [ZunhaiSu/OScaR-KV-Quant](https://github.com/ZunhaiSu/OScaR-KV-Quant) on 2026-05-25
-- ⭐ Starred [google/langextract](https://github.com/google/langextract) on 2026-05-23
-- ⭐ Starred [mattpocock/skills](https://github.com/mattpocock/skills) on 2026-05-22
-- ⭐ Starred [brendangooden/ms-teams-sharepoint-downloader](https://github.com/brendangooden/ms-teams-sharepoint-downloader) on 2026-05-15
+- Failed to fetch recent activity.
 <!-- END_SECTION:activity -->
 
 </details>
