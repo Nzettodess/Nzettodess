@@ -19,10 +19,10 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 <!-- START_SECTION:stats -->
 | 📊 Metric | Count |
 |---|---|
-| 📦 Total Repositories | 0 |
-| ⭐ Total Stars Earned | 0 |
-| 💻 Commits (Last Year)| 0 |
-| ⏳ Account Age | Unknown |
+| 📦 Total Repositories | 33 |
+| ⭐ Total Stars Earned | 2 |
+| 💻 Commits (Last Year)| 1290 |
+| ⏳ Account Age | 6 yrs, 12 mos |
 <!-- END_SECTION:stats -->
 
 </td>
@@ -33,7 +33,14 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': { 'pie1': '#e74c3c', 'pie2': '#3498db', 'pie3': '#f1c40f', 'pie4': '#2ecc71', 'pie5': '#9b59b6', 'pie6': '#e67e22', 'pie7': '#1abc9c', 'pie8': '#34495e' }}}%%
 pie title Top Languages (Active Repos)
-    "No Data" : 100
+    "Python" : 55.35
+    "HTML" : 23.92
+    "TypeScript" : 5.43
+    "Dart" : 4.22
+    "JavaScript" : 2.80
+    "TeX" : 2.21
+    "C" : 1.09
+    "CSS" : 0.90
 ```
 <!-- END_SECTION:languages -->
 
@@ -75,7 +82,11 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
-- Failed to fetch recent activity.
+- ⭐ Starred [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) on 2026-06-02
+- ⭐ Starred [study8677/architecture-copilot](https://github.com/study8677/architecture-copilot) on 2026-06-01
+- ⭐ Starred [microsoft/Webwright](https://github.com/microsoft/Webwright) on 2026-06-01
+- ⭐ Starred [FlashML-org/flashlib](https://github.com/FlashML-org/flashlib) on 2026-05-28
+- ⭐ Starred [ZunhaiSu/OScaR-KV-Quant](https://github.com/ZunhaiSu/OScaR-KV-Quant) on 2026-05-25
 <!-- END_SECTION:activity -->
 
 </details>
