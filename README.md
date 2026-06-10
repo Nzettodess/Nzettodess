@@ -25,7 +25,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 | ⏳ Account Age | 7 yrs, 0 mos |
 <!-- END_SECTION:stats -->
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Nzettodess&theme=dark&exclude_days=Sun%2CSat)](https://git.io/streak-stats)
+[![GitHub Streak](./profile/streak.svg)](https://git.io/streak-stats)
 
 </td>
 <td valign="top" width="50%">

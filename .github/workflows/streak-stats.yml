@@ -1,0 +1,35 @@
+name: Update streak stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Run every day at midnight
+  push:
+    paths:
+      - ".github/workflows/streak-stats.yml" # Run any time this file is modified
+  workflow_dispatch: # Run manually from the Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&theme=dark&exclude_days=Sun,Sat
+          path: profile/streak.svg
+          # Using PAT_TOKEN if you want private contributions to count,
+          # otherwise you can just use github.token
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Commit streak stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg
+          git commit -m "Update streak stats" || exit 0
+          git push
