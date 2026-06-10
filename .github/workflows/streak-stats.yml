@@ -20,7 +20,7 @@ jobs:
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user=${{ github.repository_owner }}&theme=dark&exclude_days=Sun,Sat
+          options: user=${{ github.repository_owner }}&theme=dark&date_format=M%20j%5B%2C%20Y%5D&mode=weekly
           path: profile/streak.svg
           # Using PAT_TOKEN if you want private contributions to count,
           # otherwise you can just use github.token
