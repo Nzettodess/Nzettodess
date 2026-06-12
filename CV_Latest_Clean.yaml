@@ -22,9 +22,9 @@ cv:
         end_date: 
         highlights:
           - >
-            **Engineered a scalable Python Web API** to natively interface with enterprise web chatbots, overcoming standard API provisioning constraints to unlock continuous, end-to-end agentic AI workflows. Accelerated data classification from 2 minutes to 8 seconds per task (**a 15x speedup**), eliminating **~300+ cumulative human-hours weekly** based on a 10,000-request benchmark.
+            **Engineered a high-concurrency Python Web API** utilizing Server-Sent Events (SSE) stream interception and Shadow DOM piercing to natively interface with enterprise web chatbots. Bypassed strict API constraints and managed enterprise SSO authentication queues to process 10,000-request batch workloads, accelerating data classification by **15x** (from 2 minutes to 8 seconds per row) and eliminating **~300+ cumulative human-hours weekly**.
           - >
-            **Developed a Day-1 escalation predictive model** (POC) to forecast Level 2 support escalations, achieving **>80% AUC and F1 scores** by benchmarking Random Forest, LightGBM, and CatBoost across **rolling time windows**, ensuring zero data-leakage, deployed **automated drift detection**, and leveraged **SHAP values with Surrogate Trees** to extract cyclical trends, equipping leadership with transparent, preventative insights.
+            **Developed a Day-1 escalation predictive model** (POC) to forecast Level 2 support escalations, achieving **>80% ROC AUC and F1 scores** by benchmarking Random Forest, LightGBM, and CatBoost across 6-month rolling windows while ensuring zero data-leakage. Distilled black-box ML predictions into transparent, human-readable routing rules using **SHAP values and Surrogate Trees**, and deployed automated 10%/20% degradation drift detection to provide preventative insights.
           - >
             **Eliminated third-party API costs and bypassed hardware bottlenecks** (4GB VRAM) by utilizing LLMs to generate a "golden dataset," training a lightweight **XGBoost classifier** for zero-cost, high-speed text categorization.
           - >
