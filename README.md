@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 |---|---|
 | 📦 Total Repositories | 33 |
 | ⭐ Total Stars Earned | 2 |
-| 💻 Commits (Last Year)| 1336 |
+| 💻 Commits (Last Year)| 1357 |
 | ⏳ Account Age | 7 yrs, 0 mos |
 <!-- END_SECTION:stats -->
 
@@ -36,10 +36,10 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 %%{init: {'theme': 'base', 'themeVariables': { 'pie1': '#e74c3c', 'pie2': '#3498db', 'pie3': '#f1c40f', 'pie4': '#2ecc71', 'pie5': '#9b59b6', 'pie6': '#e67e22', 'pie7': '#1abc9c', 'pie8': '#34495e' }}}%%
 pie title Top Languages (Active Repos)
     "Python" : 55.46
-    "HTML" : 23.84
+    "HTML" : 23.81
     "TypeScript" : 5.41
-    "Dart" : 4.21
-    "JavaScript" : 2.82
+    "Dart" : 4.20
+    "JavaScript" : 2.87
     "TeX" : 2.20
     "C" : 1.09
     "CSS" : 0.89
