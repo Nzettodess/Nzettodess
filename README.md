@@ -33,7 +33,6 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 ## 🏆 Current Focus (Last 365 Days)
 <!-- START_SECTION:languages -->
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'pie1': '#e74c3c', 'pie2': '#3498db', 'pie3': '#f1c40f', 'pie4': '#2ecc71', 'pie5': '#9b59b6', 'pie6': '#e67e22', 'pie7': '#1abc9c', 'pie8': '#34495e' }}}%%
 pie title Top Languages (Active Repos)
     "Python" : 55.60
     "HTML" : 23.72
