@@ -87,16 +87,24 @@ def generate_stats_and_languages(repos):
     # Generate Mermaid Pie Chart
     mermaid_lines = [
         "```mermaid",
+        "%%{init: {'theme': 'base', 'themeVariables': { 'pie1': '#FF0055', 'pie2': '#00E5FF', 'pie3': '#FFEA00', 'pie4': '#00E676', 'pie5': '#D500F9', 'pieTitleTextPaint': '#ffffff', 'pieLegendTextPaint': '#ffffff', 'pieTitleTextSize': '20px' }}}%%",
         "pie title Top Languages (Active Repos)"
     ]
     
     if language_bytes:
         total_bytes = sum(language_bytes.values())
-        sorted_langs = sorted(language_bytes.items(), key=lambda x: x[1], reverse=True)[:8]
+        sorted_langs = sorted(language_bytes.items(), key=lambda x: x[1], reverse=True)
+        
+        other_percent = 0.0
         for lang, count in sorted_langs:
             percent = (count / total_bytes) * 100
-            if percent > 0.5:
+            if percent >= 3.0:
                 mermaid_lines.append(f'    "{lang}" : {percent:.2f}')
+            else:
+                other_percent += percent
+                
+        if other_percent > 0:
+            mermaid_lines.append(f'    "Other" : {other_percent:.2f}')
     else:
         mermaid_lines.append('    "No Data" : 100')
         
