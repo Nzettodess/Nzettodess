@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 |---|---|
 | 📦 Total Repositories | 33 |
 | ⭐ Total Stars Earned | 2 |
-| 💻 Commits (Last Year)| 1372 |
+| 💻 Commits (Last Year)| 1390 |
 | ⏳ Account Age | 7 yrs, 0 mos |
 <!-- END_SECTION:stats -->
 
@@ -36,7 +36,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 %%{init: {'theme': 'dark', 'themeVariables': { 'pie1': '#FF0055', 'pie2': '#00E5FF', 'pie3': '#FFEA00', 'pie4': '#00E676', 'pie5': '#D500F9' }}}%%
 pie title Top Languages (Active Repos)
     "Python" : 55.60
-    "HTML" : 23.72
+    "HTML" : 23.71
     "TypeScript" : 5.39
     "Dart" : 4.19
     "Other" : 11.11
@@ -81,11 +81,11 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
+- ⭐ Starred [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) on 2026-06-18
 - ⭐ Starred [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) on 2026-06-02
 - ⭐ Starred [study8677/architecture-copilot](https://github.com/study8677/architecture-copilot) on 2026-06-01
 - ⭐ Starred [microsoft/Webwright](https://github.com/microsoft/Webwright) on 2026-06-01
 - ⭐ Starred [FlashML-org/flashlib](https://github.com/FlashML-org/flashlib) on 2026-05-28
-- ⭐ Starred [ZunhaiSu/OScaR-KV-Quant](https://github.com/ZunhaiSu/OScaR-KV-Quant) on 2026-05-25
 <!-- END_SECTION:activity -->
 
 </details>
