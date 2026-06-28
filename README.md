@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 |---|---|
 | 📦 Total Repositories | 33 |
 | ⭐ Total Stars Earned | 2 |
-| 💻 Commits (Last Year)| 1444 |
+| 💻 Commits (Last Year)| 1451 |
 | ⏳ Account Age | 7 yrs, 0 mos |
 <!-- END_SECTION:stats -->
 
@@ -35,11 +35,11 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'pie1': '#FF0055', 'pie2': '#00E5FF', 'pie3': '#FFEA00', 'pie4': '#00E676', 'pie5': '#D500F9' }}}%%
 pie title Top Languages (Active Repos)
-    "Python" : 55.88
-    "HTML" : 23.55
-    "TypeScript" : 5.35
-    "Dart" : 4.16
-    "Other" : 11.07
+    "Python" : 56.03
+    "HTML" : 23.47
+    "TypeScript" : 5.33
+    "Dart" : 4.14
+    "Other" : 11.04
 ```
 <!-- END_SECTION:languages -->
 
@@ -85,7 +85,6 @@ pie title Top Languages (Active Repos)
 - ⭐ Starred [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) on 2026-06-02
 - ⭐ Starred [study8677/architecture-copilot](https://github.com/study8677/architecture-copilot) on 2026-06-01
 - ⭐ Starred [microsoft/Webwright](https://github.com/microsoft/Webwright) on 2026-06-01
-- ⭐ Starred [FlashML-org/flashlib](https://github.com/FlashML-org/flashlib) on 2026-05-28
 <!-- END_SECTION:activity -->
 
 </details>
