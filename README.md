@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 |---|---|
 | 📦 Total Repositories | 33 |
 | ⭐ Total Stars Earned | 2 |
-| 💻 Commits (Last Year)| 1511 |
+| 💻 Commits (Last Year)| 1519 |
 | ⏳ Account Age | 7 yrs, 0 mos |
 <!-- END_SECTION:stats -->
 
@@ -35,11 +35,11 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'pie1': '#FF0055', 'pie2': '#00E5FF', 'pie3': '#FFEA00', 'pie4': '#00E676', 'pie5': '#D500F9' }}}%%
 pie title Top Languages (Active Repos)
-    "Python" : 56.15
-    "HTML" : 23.40
+    "Python" : 56.19
+    "HTML" : 23.38
     "TypeScript" : 5.31
     "Dart" : 4.13
-    "Other" : 11.01
+    "Other" : 11.00
 ```
 <!-- END_SECTION:languages -->
 
@@ -81,10 +81,11 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
+- ⭐ Starred [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) on 2026-06-30
+- ⭐ Starred [google-labs-code/design.md](https://github.com/google-labs-code/design.md) on 2026-06-30
 - ⭐ Starred [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) on 2026-06-18
 - ⭐ Starred [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) on 2026-06-02
 - ⭐ Starred [study8677/architecture-copilot](https://github.com/study8677/architecture-copilot) on 2026-06-01
-- ⭐ Starred [microsoft/Webwright](https://github.com/microsoft/Webwright) on 2026-06-01
 <!-- END_SECTION:activity -->
 
 </details>
