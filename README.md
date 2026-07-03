@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 |---|---|
 | 📦 Total Repositories | 33 |
 | ⭐ Total Stars Earned | 2 |
-| 💻 Commits (Last Year)| 1522 |
+| 💻 Commits (Last Year)| 1524 |
 | ⏳ Account Age | 7 yrs, 0 mos |
 <!-- END_SECTION:stats -->
 
@@ -85,7 +85,6 @@ pie title Top Languages (Active Repos)
 - ⭐ Starred [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) on 2026-06-30
 - ⭐ Starred [google-labs-code/design.md](https://github.com/google-labs-code/design.md) on 2026-06-30
 - ⭐ Starred [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) on 2026-06-18
-- ⭐ Starred [KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills) on 2026-06-02
 <!-- END_SECTION:activity -->
 
 </details>
