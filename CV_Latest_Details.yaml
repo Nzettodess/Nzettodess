@@ -1,0 +1,182 @@
+cv:
+  name: Ang Kang Heng
+  # location: Penang, Malaysia
+  # phone: "+60 19-469 3448"
+  email: angkangheng@hotmail.com
+  social_networks:
+    - network: LinkedIn
+      username: angkangheng
+    - network: GitHub
+      username: Nzettodess
+    - network: WhatsApp
+      username: "+60194693448"
+  website: https://angkangheng.wixsite.com/nzettodess
+
+  sections:
+    summary:
+      - >
+        **Strategic AI & Data Engineer** with hands-on enterprise expertise in predictive analytics, multi-agent LLM orchestration, and high-speed data engineering. Proven ability to architect cost-optimized machine learning models (CatBoost, XGBoost) and multimodal extraction pipelines (VLMs, RAG) that successfully bypass hardware limits and commercial API constraints. Adept at transforming raw operational data into Explainable AI (SHAP) and automated dashboards, driving measurable efficiencies and equipping leadership with transparent, Day-1 preventative insights.
+    experience:
+      - company: Zebra Technologies
+        position: CSI Specialist (Data, AI & Automation)
+        location: Penang, Malaysia
+        start_date: 2026-04
+        end_date: 
+        highlights:
+          - >
+            Architected a **4-agent swarm** to automate iterative prompt-crafting for complex **data classification and taxonomy generation**. Implemented rigid state-machine conditions and strict evaluation gates to prevent **context degradation and instruction drift**, forcing comprehensive **edge-case discovery** and shifting human involvement from manual prompting to **high-level strategic review**.
+          - >
+            **Engineered a high-concurrency Python Web API** utilizing Server-Sent Events (SSE) stream interception and Shadow DOM piercing to natively interface with enterprise web chatbots. Bypassed strict API constraints and managed enterprise SSO authentication queues to process 10,000-request batch workloads, accelerating data classification by **15x** (from 2 minutes to 8 seconds per row) and eliminating **~300+ cumulative human-hours weekly**.
+          - >
+            **Developed a Day-1 escalation predictive model** (POC) to forecast Level 2 support escalations, achieving **>80% ROC AUC and F1 scores** by benchmarking Random Forest, LightGBM, and CatBoost across 6-month rolling windows while ensuring zero data-leakage. Distilled black-box ML predictions into transparent, human-readable routing rules using **SHAP values and Surrogate Trees**, and deployed automated 10%/20% degradation drift detection to provide preventative insights.
+          - >
+            **Architected a multimodal data extraction pipeline** to recover image-based data omitted by standard RAG parsers, utilizing OCR, **Vision-Language Models (VLMs)**, and LLMs to synthesize complex UI screenshots into structured text.
+          # - >
+          #   **Engineered automated NPI/NSI reporting workflows** to transform complex tabular data into **AI-generated executive summaries** and embedded visual charts, delivering a **rolling 12-month project timeline** (-3 to +9 months) and status updates to leadership.
+          # - >
+          #   **Orchestrated a 20,000+ row text classification pipeline** with a 100% success rate over a 50-hour window, utilizing fine-tuned LLMs (Qwen 3.5 4B, GPT-4) with Chain-of-Thought prompting to identify \"defensive bounces\" and isolate workflow bottlenecks.  
+          # - >
+          #   **Eliminated third-party API costs and bypassed hardware bottlenecks** (4GB VRAM) by utilizing LLMs to generate a "golden dataset," training a lightweight **XGBoost classifier** for zero-cost, high-speed text categorization.
+      - company: Zebra Technologies
+        position: IT Intern (AI & Automation)
+        location: Penang, Malaysia
+        start_date: 2025-10
+        end_date: 2026-04
+        highlights:
+          - >
+            **Engineered an 8-agent hierarchical AI prototype** (**LangGraph**, **ReAct**) to automate enterprise data synthesis; integrated **Reflective Memory (ReMe)** and an **LLM-as-Judge** validation layer to enforce self-correction and rigorously verify AI reasoning.
+          - >
+            Reduced global web testing cycles from several days to **90 minutes** by deploying a modular Web Assurance Suite (**Python**, **Playwright**) during a hybrid site migration, automating the validation of 2.9M+ legacy HTML links and ensuring 100% routing coverage for 114 modern **SPA** endpoints.
+          - >
+            **Engineered a Human-in-the-Loop (HITL) ETL pipeline** (**Python**, **Pandas**) to bypass API constraints; utilized **LanceDB** for semantic embeddings and **JSON prompt injection** to automate data sanitization and dynamic charting.
+          - >
+            Increased CES categorization accuracy to **98.25%** and eliminated manual data entry by deploying **Chain-of-Thought (CoT)** prompt engineering within **Power Automate**, optimizing multilingual feedback triage.
+          # - >
+          #   **Led** a 3-person team to deliver Omega Vault, a live gamified solution capturing **hundreds of resumes** by driving user engagement through **end-to-end UI/UX architecture and system testing**.
+
+          # OLD CONTENT (Preserved)
+          # - Developed an AI-powered compliance agent using Google Gemini API and LangChain to automate regulatory analysis.
+          # - Built a web scraper with Selenium/Playwright to extract and index data from high-traffic portals.
+          # - Automated internal reporting workflows using Power Automate, reducing manual data entry time by 40%.
+          # - Collaborated with cross-functional teams to integrate AI models into existing enterprise dashboards.
+
+    education:
+      - institution: Universiti Teknikal Malaysia Melaka (UTeM)
+        area: "Bachelor of Information Technology (Games Technology) with Honours"
+        degree: B.IT
+        summary: "CGPA: 3.93/4"
+        start_date: 2022-10
+        end_date: 2026-04
+        # highlights:
+        #   - >
+        #     Relevant Coursework: Programming Fundamentals (**C++**), Interactive 3D Animation (**Blender**), Database (**MySQL**), Web Game Development (**HTML/JS/THREE.js**), 
+        #     Game Engine Development (**OpenGL & Raylib**), Artificial Intelligence for Games (**Pathfinding, Finite State Machines**), 
+        #     Operating Systems (**Multithreading**), and Human Computer Interaction (**UI/UX**).
+   
+    achievements:
+      - bullet: "**Dean’s List Award (UTeM)**: Maintained a 3.93/4.00 CGPA by achieving a GPA above 3.50 for **all** semesters."
+      - bullet: "**Gold Award & Industry Award (GDIID 2025)**: Swept three major categories for the architectural design of Astraeus Protocol, recognized by industry judges for technical excellence, algorithmic innovation, and commercial viability."
+      - bullet: "**1st Place (Best Game)** & **3rd Place (Best Poster)**, Workshop II Final Showcase: Outperformed 10+ teams in technical execution, innovation, and project communication for the development of ‘Moral Nexus’."
+      
+    projects:
+      - name: '[AI Act Compliance Suite (Governance) | Python, Gemini API, SQLite](https://github.com/Nzettodess/Gemini-Hackathon/tree/main)'
+        start_date: 2026-01
+        end_date: 2026-02
+        highlights:
+          - >
+            **Designed** 5 modular Agent Plugins to decouple specialized AI Agents, **enabling autonomous, zero-touch compliance verification** for 3 EU legislative articles.
+          - >
+            **Engineered** a documentation engine parsing 20+ file types within 500k-character contexts, **automating the generation of complex visual architectures (Mermaid.js)**.
+          - >
+            **Standardized** system integration across frontend and backend teams by deploying a High Availability fallback framework, **guaranteeing 99.9% system uptime** and operational resilience.
+
+      # - name: '[Orbit: Cross-Platform Event Sync Application | Flutter, Firebase, Vercel](https://github.com/Nzettodess/Orbit)'
+      #   start_date: 2025-09
+      #   end_date: 2025-12
+      #   highlights:
+      #     - >
+      #       **Spearheaded** the deployment of a scalable backend architecture (Firebase, Vercel) to manage secure authentication, **guaranteeing real-time data synchronization and consistency** across Web, iOS, and Android platforms.
+      #     - >
+      #       **Automated** cross-platform communication pipelines using OneSignal, **achieving a 100% successful push-notification delivery rate** to all subscribed devices.
+          
+          # OLD CONTENT (Preserved)
+          # - Designed a Flutter-based mobile app for real-time event synchronization across devices.
+          # - Implemented Firebase performing Cloud Functions for serverless backend logic and notifications.
+          # - Integrated Google Calendar API to allow users to sync schedules seamlessly.
+
+      # - name: '[Astraeus Protocol (Multiplayer P2P Roguelite) | C++, Unreal Engine 5, EOS](https://www.youtube.com/watch?v=yhu8UNkjQRc)'
+      #   start_date: 2025-02
+      #   end_date: 2025-07
+      #   highlights:
+      #     - >
+      #        **Optimized** a P2P synchronization layer (Blueprints/EOS) with RPCs to manage state replication for **30+ network actors at 60Hz tick rate**.
+      #     - >
+      #        **Developed** a **deterministic procedural generation engine** using seed-based logic to **guarantee 100% valid navigational pathing** with zero runtime errors.
+      #     - >
+      #        **Accelerated** replication performance by implementing **relevance-based culling**, minimizing bandwidth overhead for synchronous multiplayer states.
+
+      # - name: '[Moral Nexus (AI-Driven Survival Game) | Unreal Engine 5, Blueprints](https://youtu.be/jfWJqOpxPrM?si=391F8AwrKuUPRPo)'
+      #   start_date: 2024-10
+      #   end_date: 2025-02
+      #   highlights:
+      #     - >
+      #        **Engineering Leadership**: Collaborated with a 4-person engineering team using Agile and Diversion (Version Control), managing **merge conflicts** for a 4-month cycle.
+      #     - >
+      #        **Stealth AI Systems**: Developed **sight-based AI perception logic** and time-synchronized Day/Night cycles to dynamically alter NPC patrolling behaviors.
+      #     - >
+      #        **Systems Integration**: Coordinated environmental states across 3 game zones by implementing a **global event-driven architecture** to synchronize player availability.
+
+          # OLD CONTENT (Preserved)
+          # - Led a team of 4 developers to build an interactive narrative game with branching storylines.
+          # - Implemented complex AI behavior trees for NPC decision-making and pathfinding.
+          # - Managed version control and project milestones using Git and Agile methodologies.
+
+    skills:
+      - label: Agentic AI
+        details: "Multi-Agent Swarm Orchestration, LangGraph, State Machines, LLMs & VLMs, ReAct/CoT Logic, Prompt/Context Engineering, RAG, OCR, Vector Embeddings (LanceDB)"
+      - label: Machine Learning & Predictive Analytics
+        details: "Ensemble Models (CatBoost, XGBoost, LightGBM, Random Forest), Explainable AI / XAI (SHAP, Surrogate Trees), NLP (TF-IDF, Topic Modeling)"
+      - label: Data Engineering & Architecture
+        details: "Python (Polars, Pandas), Rust-based Parsers (Calamine), Power BI (DAX, Semantic Modeling), ETL Pipelines, Parquet, Data Sanitization"  
+      - label: Process & Web Automation
+        details: "Power Automate, Playwright (Shadow DOM, Context Pooling), Server-Sent Events (SSE), Selenium, Async Python, CI/CD (GitHub Actions)"
+      - label: Programming Languages
+        details: "Python, JavaScript, SQL, HTML/CSS" # Dart (Flutter), C++
+      - label: Game Engineering, 3D pipelines & Tools 
+        details: "Unreal Engine 5 (Blueprints, Network Replication), Blender, Git/GitHub, Firebase, Vercel, SQLite"
+      # - label: Tools & Platforms
+      #   details: "Git/GitHub, Firebase, Vercel, SQLite"
+      - label: Languages
+        details: "Mandarin, English, Malay, Hokkien"
+
+design:
+  theme: classic
+  entries:
+    # Increased width to prevent date/location wrapping
+    date_and_location_width: 4.5cm
+
+  typography:
+    line_spacing: 0.7em
+    alignment: justified-with-no-hyphenation
+
+locale:
+  language: english
+  last_updated: Last updated in
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  month_abbreviations:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
