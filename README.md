@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 |---|---|
 | 📦 Total Repositories | 33 |
 | ⭐ Total Stars Earned | 3 |
-| 💻 Commits (Last Year)| 1577 |
+| 💻 Commits (Last Year)| 1581 |
 | ⏳ Account Age | 7 yrs, 1 mos |
 <!-- END_SECTION:stats -->
 
@@ -35,9 +35,9 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'pie1': '#FF0055', 'pie2': '#00E5FF', 'pie3': '#FFEA00', 'pie4': '#00E676', 'pie5': '#D500F9' }}}%%
 pie title Top Languages (Active Repos)
-    "Python" : 56.53
-    "HTML" : 23.19
-    "TypeScript" : 5.27
+    "Python" : 56.56
+    "HTML" : 23.17
+    "TypeScript" : 5.26
     "Dart" : 4.09
     "Other" : 10.92
 ```
@@ -81,6 +81,7 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
+- ⭐ Starred [oh-my-mermaid/oh-my-mermaid](https://github.com/oh-my-mermaid/oh-my-mermaid) on 2026-07-10
 - ⭐ Starred [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) on 2026-07-01
 - ⭐ Starred [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) on 2026-06-30
 - ⭐ Starred [google-labs-code/design.md](https://github.com/google-labs-code/design.md) on 2026-06-30
