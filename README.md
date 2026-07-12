@@ -81,11 +81,11 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
+- ⭐ Starred [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) on 2026-07-11
+- ⭐ Starred [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) on 2026-07-11
 - ⭐ Starred [oh-my-mermaid/oh-my-mermaid](https://github.com/oh-my-mermaid/oh-my-mermaid) on 2026-07-10
 - ⭐ Starred [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) on 2026-07-01
 - ⭐ Starred [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) on 2026-06-30
-- ⭐ Starred [google-labs-code/design.md](https://github.com/google-labs-code/design.md) on 2026-06-30
-- ⭐ Starred [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) on 2026-06-18
 <!-- END_SECTION:activity -->
 
 </details>
