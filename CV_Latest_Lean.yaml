@@ -24,9 +24,9 @@ cv:
         end_date: 
         highlights:
           - >
-            Architected a **4-agent swarm** automating **data classification and taxonomy generation**. Engineered strict state-machine evaluation gates to prevent **instruction drift**, guaranteeing comprehensive **edge-case discovery** and enabling high-level strategic review.
+            Architected a **multi-agent orchestration framework**, elevating workflows from week-long manual prompting iterations to **streamlined supervisory approvals**. Integrated **state-machine quality gates** to evaluate outputs and catch AI hallucinations early, **preventing large-scale data rework** and freeing up manpower for higher-value tasks.
           - >
-            **Engineered a high-concurrency Python API** using SSE stream interception and Shadow DOM piercing to bypass strict enterprise constraints. Managed SSO queues for 10k-request batch workloads, accelerating classification by **15x** and eliminating **~300+ human-hours weekly**.
+            Engineered a **highly concurrent Python API** using **SSE stream interception** to **autonomously process 50,000+ data classifications** with zero human intervention. Eliminated manual batching bottlenecks and implemented strict **row-by-row isolation** to completely **prevent LLM context poisoning**, ensuring independent and highly accurate outputs.
           - >
             **Developed a Day-1 escalation predictive model** (LightGBM/CatBoost) achieving **>80% ROC AUC/F1**. Translated black-box predictions into transparent routing rules via **SHAP and Surrogate Trees**, and deployed automated drift detection for preventative insights.
           - >
