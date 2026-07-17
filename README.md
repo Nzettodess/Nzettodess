@@ -81,11 +81,11 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
+- ⭐ Starred [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) on 2026-07-16
 - ⭐ Starred [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) on 2026-07-13
 - ⭐ Starred [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) on 2026-07-11
 - ⭐ Starred [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) on 2026-07-11
 - ⭐ Starred [oh-my-mermaid/oh-my-mermaid](https://github.com/oh-my-mermaid/oh-my-mermaid) on 2026-07-10
-- ⭐ Starred [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) on 2026-07-01
 <!-- END_SECTION:activity -->
 
 </details>
