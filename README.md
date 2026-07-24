@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 |---|---|
 | 📦 Total Repositories | 33 |
 | ⭐ Total Stars Earned | 3 |
-| 💻 Commits (Last Year)| 1661 |
+| 💻 Commits (Last Year)| 1698 |
 | ⏳ Account Age | 7 yrs, 1 mos |
 <!-- END_SECTION:stats -->
 
@@ -35,11 +35,11 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'pie1': '#FF0055', 'pie2': '#00E5FF', 'pie3': '#FFEA00', 'pie4': '#00E676', 'pie5': '#D500F9' }}}%%
 pie title Top Languages (Active Repos)
-    "Python" : 57.74
-    "HTML" : 22.52
-    "TypeScript" : 5.11
-    "Dart" : 3.97
-    "Other" : 10.66
+    "Python" : 57.86
+    "HTML" : 22.44
+    "TypeScript" : 5.10
+    "Dart" : 3.96
+    "Other" : 10.63
 ```
 <!-- END_SECTION:languages -->
 
@@ -81,11 +81,11 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
+- ⭐ Starred [openai/codex](https://github.com/openai/codex) on 2026-07-23
 - ⭐ Starred [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) on 2026-07-16
 - ⭐ Starred [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) on 2026-07-13
 - ⭐ Starred [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) on 2026-07-11
 - ⭐ Starred [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) on 2026-07-11
-- ⭐ Starred [oh-my-mermaid/oh-my-mermaid](https://github.com/oh-my-mermaid/oh-my-mermaid) on 2026-07-10
 <!-- END_SECTION:activity -->
 
 </details>
