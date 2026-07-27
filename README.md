@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 |---|---|
 | 📦 Total Repositories | 33 |
 | ⭐ Total Stars Earned | 3 |
-| 💻 Commits (Last Year)| 1700 |
+| 💻 Commits (Last Year)| 1751 |
 | ⏳ Account Age | 7 yrs, 1 mos |
 <!-- END_SECTION:stats -->
 
@@ -35,11 +35,11 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'pie1': '#FF0055', 'pie2': '#00E5FF', 'pie3': '#FFEA00', 'pie4': '#00E676', 'pie5': '#D500F9' }}}%%
 pie title Top Languages (Active Repos)
-    "Python" : 57.90
-    "HTML" : 22.41
-    "TypeScript" : 5.09
-    "Dart" : 3.96
-    "Other" : 10.64
+    "Python" : 58.33
+    "HTML" : 22.18
+    "TypeScript" : 5.04
+    "Dart" : 3.91
+    "Other" : 10.54
 ```
 <!-- END_SECTION:languages -->
 
@@ -81,11 +81,11 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
+- ⭐ Starred [FutureisinPast/antigravity-conversation-fix](https://github.com/FutureisinPast/antigravity-conversation-fix) on 2026-07-26
 - ⭐ Starred [openai/codex](https://github.com/openai/codex) on 2026-07-23
 - ⭐ Starred [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) on 2026-07-16
 - ⭐ Starred [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) on 2026-07-13
 - ⭐ Starred [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) on 2026-07-11
-- ⭐ Starred [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) on 2026-07-11
 <!-- END_SECTION:activity -->
 
 </details>
