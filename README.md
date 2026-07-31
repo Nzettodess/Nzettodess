@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 |---|---|
 | 📦 Total Repositories | 33 |
 | ⭐ Total Stars Earned | 3 |
-| 💻 Commits (Last Year)| 1768 |
+| 💻 Commits (Last Year)| 1772 |
 | ⏳ Account Age | 7 yrs, 1 mos |
 <!-- END_SECTION:stats -->
 
@@ -35,7 +35,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'pie1': '#FF0055', 'pie2': '#00E5FF', 'pie3': '#FFEA00', 'pie4': '#00E676', 'pie5': '#D500F9' }}}%%
 pie title Top Languages (Active Repos)
-    "Python" : 58.40
+    "Python" : 58.39
     "HTML" : 22.15
     "TypeScript" : 5.03
     "Dart" : 3.91
@@ -81,11 +81,11 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
+- ⭐ Starred [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) on 2026-07-30
+- ⭐ Starred [openai/whisper](https://github.com/openai/whisper) on 2026-07-30
 - ⭐ Starred [alibaba/open-code-review](https://github.com/alibaba/open-code-review) on 2026-07-28
 - ⭐ Starred [FutureisinPast/antigravity-conversation-fix](https://github.com/FutureisinPast/antigravity-conversation-fix) on 2026-07-26
 - ⭐ Starred [openai/codex](https://github.com/openai/codex) on 2026-07-23
-- ⭐ Starred [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) on 2026-07-16
-- ⭐ Starred [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) on 2026-07-13
 <!-- END_SECTION:activity -->
 
 </details>
