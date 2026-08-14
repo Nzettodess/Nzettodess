@@ -3,3 +3,5 @@ C:\Users\Nzettodess\Downloads\CV\rendercv-windows-x86_64.exe render C:\Users\Nze
 C:\Users\Nzettodess\Downloads\Nzettodess\rendercv-windows-x86_64.exe render C:\Users\Nzettodess\Downloads\Nzettodess\CV_Latest_Details.yaml
 
 C:\Users\Nzettodess\Downloads\Nzettodess\rendercv-windows-x86_64.exe render C:\Users\Nzettodess\Downloads\Nzettodess\CV_Latest_Lean.yaml
+
+C:\Users\Nzettodess\Downloads\Nzettodess\rendercv-windows-x86_64.exe render C:\Users\Nzettodess\Downloads\Nzettodess\CV_Latest_Clean.yaml
