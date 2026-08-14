@@ -24,13 +24,15 @@ cv:
         end_date: 
         highlights:
           - >
-            Architected a **multi-agent orchestration framework**, elevating workflows from week-long manual prompting iterations to **streamlined supervisory approvals**. Integrated **state-machine quality gates** to evaluate outputs and catch AI hallucinations early, **preventing large-scale data rework** and freeing up manpower for higher-value tasks.
+            Engineered a **highly concurrent Python API** with **SSE stream interception** to automate chatbot interactions. Processed 10,000-request workloads, accelerating data classification by **15x** (2 mins to 8 secs/row) and eliminating **300+ manual hours weekly**.
           - >
-            Engineered a **highly concurrent Python API** using **SSE stream interception** to **autonomously process 50,000+ data classifications** with zero human intervention. Eliminated manual batching bottlenecks and implemented strict **row-by-row isolation** to completely **prevent LLM context poisoning**, ensuring independent and highly accurate outputs.
+            Architected a **scalable multi-agent framework** using process synchronization for reliable agent execution. Integrated **Model Context Protocol (MCP)** and code-validation to enable secure, real-time tabular data manipulation.
           - >
-            **Developed a Day-1 escalation predictive model** (LightGBM/CatBoost) achieving **>80% ROC AUC/F1**. Translated black-box predictions into transparent routing rules via **SHAP and Surrogate Trees**, and deployed automated drift detection for preventative insights.
+            Engineered a **secure Python execution sandbox** for evaluating autonomous AI tasks. Built memory optimization and text-replacement tools, allowing agents to **autonomously audit and execute code modifications**, reducing manual review overhead by **>80%**.
           - >
-            **Architected a multimodal extraction pipeline** utilizing OCR and **Vision-Language Models (VLMs)** to recover image-based data omitted by standard RAG parsers, synthesizing complex UI screenshots into structured text.
+            **Developed a Day-1 escalation predictive model** (LightGBM/CatBoost) achieving **>80% ROC AUC/F1**. Translated complex ML predictions into clear routing rules via **SHAP and Surrogate Trees**, deploying automated drift detection for preventative insights.
+          - >
+            **Diagnosed a core Google Gemini model regression** affecting enterprise operations. Led a 1.5-month escalation, leveraging performance evidence to definitively prove a vendor deployment failure and drive **direct remediation by Google's Product Engineering team**.
 
       - company: Zebra Technologies
         position: IT Intern (AI & Automation)

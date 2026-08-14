@@ -21,14 +21,16 @@ cv:
         start_date: 2026-04
         end_date: 
         highlights:
-          - >
-            **Engineered a high-concurrency Python Web API** utilizing Server-Sent Events (SSE) stream interception and Shadow DOM piercing to natively interface with enterprise web chatbots. Bypassed strict API constraints and managed enterprise SSO authentication queues to process 10,000-request batch workloads, accelerating data classification by **15x** (from 2 minutes to 8 seconds per row) and eliminating **~300+ cumulative human-hours weekly**.
-          - >
-            **Developed a Day-1 escalation predictive model** (POC) to forecast Level 2 support escalations, achieving **>80% ROC AUC and F1 scores** by benchmarking Random Forest, LightGBM, and CatBoost across 6-month rolling windows while ensuring zero data-leakage. Distilled black-box ML predictions into transparent, human-readable routing rules using **SHAP values and Surrogate Trees**, and deployed automated 10%/20% degradation drift detection to provide preventative insights.
-          - >
-            **Eliminated third-party API costs and bypassed hardware bottlenecks** (4GB VRAM) by utilizing LLMs to generate a "golden dataset," training a lightweight **XGBoost classifier** for zero-cost, high-speed text categorization.
-          - >
-            **Architected a multimodal data extraction pipeline** to recover image-based data omitted by standard RAG parsers, utilizing OCR, **Vision-Language Models (VLMs)**, and LLMs to synthesize complex UI screenshots into structured text.
+        - >
+          Engineered a **highly concurrent Python API** using **SSE stream interception** to automate enterprise chatbot interactions. Managed SSO authentication queues to process 10,000-request workloads, accelerating data classification by **15x** (from 2 minutes to 8 seconds per row) and eliminating **300+ manual hours weekly**.
+        - >
+          Architected a **scalable multi-agent framework** utilizing process synchronization to run AI agents reliably. Implemented code-validation safeguards and integrated **Model Context Protocol (MCP)** to enable agents to securely process and manipulate real-time tabular data.
+        - >
+          Engineered a **secure Python execution sandbox** for evaluating autonomous AI tasks. Developed memory optimization and targeted text-replacement tools, allowing agents to **autonomously audit and execute code modifications**, reducing manual review overhead by **>80%**.
+        - >
+          **Developed a Day-1 escalation predictive model** (LightGBM/CatBoost) achieving **>80% ROC AUC and F1 scores**. Translated complex ML predictions into clear routing rules via **SHAP and Surrogate Trees**, and deployed automated drift detection to provide preventative insights.
+        - >
+          **Diagnosed and escalated a Google Gemini model regression** affecting enterprise operations. Led a 1.5-month escalation, leveraging performance evidence to definitively prove a deployment issue and drive **successful remediation by Google's Product Engineering team**.
 
       - company: Zebra Technologies
         position: IT Intern (AI & Automation)
