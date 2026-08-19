@@ -81,11 +81,11 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
+- ⭐ Starred [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) on 2026-08-18
 - ⭐ Starred [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) on 2026-07-31
 - ⭐ Starred [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) on 2026-07-30
 - ⭐ Starred [openai/whisper](https://github.com/openai/whisper) on 2026-07-30
 - ⭐ Starred [alibaba/open-code-review](https://github.com/alibaba/open-code-review) on 2026-07-28
-- ⭐ Starred [FutureisinPast/antigravity-conversation-fix](https://github.com/FutureisinPast/antigravity-conversation-fix) on 2026-07-26
 <!-- END_SECTION:activity -->
 
 </details>
