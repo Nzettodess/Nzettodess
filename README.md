@@ -20,7 +20,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 | 📊 Metric | Count |
 |---|---|
 | 📦 Total Repositories | 22 |
-| ⭐ Total Stars Earned | 4 |
+| ⭐ Total Stars Earned | 5 |
 | 💻 Commits (Last Year)| 264 |
 | ⏳ Account Age | 7 yrs, 2 mos |
 <!-- END_SECTION:stats -->
@@ -83,8 +83,6 @@ pie title Top Languages (Active Repos)
 - ⭐ Starred [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) on 2026-08-19
 - ⭐ Starred [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) on 2026-08-18
 - ⭐ Starred [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) on 2026-07-31
-- ⭐ Starred [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus) on 2026-07-30
-- ⭐ Starred [openai/whisper](https://github.com/openai/whisper) on 2026-07-30
 <!-- END_SECTION:activity -->
 
 </details>
