@@ -82,7 +82,6 @@ pie title Top Languages (Active Repos)
 <!-- START_SECTION:activity -->
 - ⭐ Starred [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) on 2026-08-19
 - ⭐ Starred [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) on 2026-08-18
-- ⭐ Starred [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) on 2026-07-31
 <!-- END_SECTION:activity -->
 
 </details>
