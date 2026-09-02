@@ -80,6 +80,7 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
+- ⭐ Starred [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) on 2026-09-02
 - ⭐ Starred [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) on 2026-08-19
 - ⭐ Starred [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) on 2026-08-18
 <!-- END_SECTION:activity -->
