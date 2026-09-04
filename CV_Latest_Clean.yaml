@@ -13,7 +13,7 @@ cv:
   sections:
     summary:
       - >
-        **Strategic AI & Data Engineer** with hands-on enterprise expertise in predictive analytics, multi-agent LLM orchestration, and high-speed data engineering. Proven ability to architect cost-optimized machine learning models (CatBoost, XGBoost) and multimodal extraction pipelines (VLMs, RAG) that successfully bypass hardware limits and commercial API constraints. Adept at transforming raw operational data into Explainable AI (SHAP) and automated dashboards, driving measurable efficiencies and equipping leadership with transparent, Day-1 preventative insights.
+        **AI & Automation Engineer** with enterprise experience across multi-agent system design, predictive modeling, and data engineering. Proven track record of developing autonomous self-correcting agent swarms, Explainable AI models (LightGBM/SHAP), and high-throughput automation pipelines that operate without commercial API keys. Skilled at converting complex unstructured data into automated workflows that eliminate hundreds of manual hours weekly.
     experience:
       - company: Zebra Technologies
         position: CSI Specialist (Data, AI & Automation)
@@ -22,15 +22,17 @@ cv:
         end_date: 
         highlights:
         - >
-          Engineered a **highly concurrent Python API** using **SSE stream interception** to automate enterprise chatbot interactions. Managed SSO authentication queues to process 10,000-request workloads, accelerating data classification by **15x** (from 2 minutes to 8 seconds per row) and eliminating **300+ manual hours weekly**.
+          Engineered a Python API using **direct SSE stream dispatch** to turn enterprise chatbots into programmatic tools without API keys, automating batch classification to reduce per-row processing from **2 minutes manually to 4.5 seconds** and saving **300+ manual hours weekly**.
         - >
-          Architected a **scalable multi-agent framework** utilizing process synchronization to run AI agents reliably. Implemented code-validation safeguards and integrated **Model Context Protocol (MCP)** to enable agents to securely process and manipulate real-time tabular data.
+          Architected the **PromptLoop multi-agent framework** using **Loop Engineering** and 5-Whys analysis, autonomously profiling raw data to refine classification prompts and compressing development cycles from **2 weeks to 3 days**.
         - >
-          Engineered a **secure Python execution sandbox** for evaluating autonomous AI tasks. Developed memory optimization and targeted text-replacement tools, allowing agents to **autonomously audit and execute code modifications**, reducing manual review overhead by **>80%**.
+          Engineered an **autonomous coding agent** utilizing **hash-anchored line-editing** and context compaction, with an **automated evaluator** driving self-correction loops to reduce manual code review overhead by **>80%**.
         - >
-          **Developed a Day-1 escalation predictive model** (LightGBM/CatBoost) achieving **>80% ROC AUC and F1 scores**. Translated complex ML predictions into clear routing rules via **SHAP and Surrogate Trees**, and deployed automated drift detection to provide preventative insights.
+          **Developed a Day-1 escalation predictive model** (LightGBM/CatBoost) achieving **>80% ROC AUC and F1 scores**, translating ML predictions into routing rules via **SHAP and Surrogate Trees** with automated drift detection.
         - >
-          **Diagnosed and escalated a Google Gemini model regression** affecting enterprise operations. Led a 1.5-month escalation, leveraging performance evidence to definitively prove a deployment issue and drive **successful remediation by Google's Product Engineering team**.
+          **Isolated and resolved an agentic tool-level harness regression** in Google Gemini; built cross-model differential benchmarks disproving claims of user error to drive **Google's Product Engineering team** to deploy a platform fix.
+        - >
+          Architected a headless **multimodal video automation pipeline** combining **Faster-Whisper** and **Silero-VAD** for accent-resilient transcription and silence trimming, translating transcript edits into rendered video cuts via GPU acceleration.
 
       - company: Zebra Technologies
         position: IT Intern (AI & Automation)
@@ -96,7 +98,7 @@ design:
     date_and_location_width: 4.5cm
 
   typography:
-    line_spacing: 0.7em
+    line_spacing: 0.65em
     alignment: justified-with-no-hyphenation
 
 locale:
