@@ -21,8 +21,8 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 |---|---|
 | 📦 Total Repositories | 22 |
 | ⭐ Total Stars Earned | 5 |
-| 💻 Commits (Last Year)| 264 |
-| ⏳ Account Age | 7 yrs, 2 mos |
+| 💻 Commits (Last Year)| 265 |
+| ⏳ Account Age | 7 yrs, 3 mos |
 <!-- END_SECTION:stats -->
 
 [![GitHub Streak](./profile/streak.svg)](https://git.io/streak-stats)
