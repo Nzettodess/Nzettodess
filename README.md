@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 |---|---|
 | 📦 Total Repositories | 22 |
 | ⭐ Total Stars Earned | 5 |
-| 💻 Commits (Last Year)| 261 |
+| 💻 Commits (Last Year)| 285 |
 | ⏳ Account Age | 7 yrs, 3 mos |
 <!-- END_SECTION:stats -->
 
@@ -35,10 +35,10 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'pie1': '#FF0055', 'pie2': '#00E5FF', 'pie3': '#FFEA00', 'pie4': '#00E676', 'pie5': '#D500F9' }}}%%
 pie title Top Languages (Active Repos)
-    "Python" : 51.36
-    "HTML" : 30.28
-    "Dart" : 5.81
-    "Other" : 12.54
+    "Python" : 51.08
+    "HTML" : 30.12
+    "Dart" : 6.24
+    "Other" : 12.56
 ```
 <!-- END_SECTION:languages -->
 
