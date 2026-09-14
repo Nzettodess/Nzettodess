@@ -21,7 +21,7 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 |---|---|
 | 📦 Total Repositories | 22 |
 | ⭐ Total Stars Earned | 5 |
-| 💻 Commits (Last Year)| 317 |
+| 💻 Commits (Last Year)| 342 |
 | ⏳ Account Age | 7 yrs, 3 mos |
 <!-- END_SECTION:stats -->
 
@@ -35,10 +35,10 @@ Welcome to my GitHub profile! I'm a passionate developer focusing on building pe
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'pie1': '#FF0055', 'pie2': '#00E5FF', 'pie3': '#FFEA00', 'pie4': '#00E676', 'pie5': '#D500F9' }}}%%
 pie title Top Languages (Active Repos)
-    "Python" : 50.12
-    "HTML" : 29.56
-    "Dart" : 7.75
-    "Other" : 12.57
+    "Python" : 49.54
+    "HTML" : 29.21
+    "Dart" : 8.76
+    "Other" : 12.48
 ```
 <!-- END_SECTION:languages -->
 
@@ -80,8 +80,7 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
-- ⭐ Starred [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) on 2026-09-02
-- ⭐ Starred [s1dashu/ip-as-logo-skill](https://github.com/s1dashu/ip-as-logo-skill) on 2026-08-19
+- No recent starred repositories found.
 <!-- END_SECTION:activity -->
 
 </details>
