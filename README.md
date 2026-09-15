@@ -80,7 +80,7 @@ pie title Top Languages (Active Repos)
 <summary>Click to view my recently starred repositories</summary>
 
 <!-- START_SECTION:activity -->
-- No recent starred repositories found.
+- ⭐ Starred [nexu-io/open-design](https://github.com/nexu-io/open-design) on 2026-09-14
 <!-- END_SECTION:activity -->
 
 </details>
